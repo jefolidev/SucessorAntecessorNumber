@@ -1,0 +1,125 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color:white;
+    
+}
+
+/* ------------------------- info.html ------------------------------------- */
+
+body{
+    background: linear-gradient(#721db8,#511880, #4c147a);
+    background-repeat: no-repeat; /* não repetir o degradê estaticamente */
+    background-attachment: fixed; /* estender corretamente pela tela */
+    background-position: center; /* */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh   ;
+
+}
+
+.container{
+    width: 600px;   
+    height: 260px;
+
+    padding: 15px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+
+    background-color: #1a1a1a;
+    box-shadow: 3px 4px 10px rgb(1, 1, 1);
+
+}
+
+section.tit{
+    background-color: rgba(62, 62, 62, .65);    
+    border-radius: 16px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+div.pan{
+
+    background-color: rgba(62, 62, 62, .65);
+    width: 385px;
+    height: 130px;
+    padding: 15px;
+    border-radius: 16px;
+
+}
+
+label{
+    font-weight: 650;
+}
+
+input[type=submit]{
+    background-color: #c6c6c6;
+
+    border: 0px;
+    margin-top: 9px;
+}
+
+input[type=submit]:hover{
+
+    background-color: #9a9898;
+   
+}
+
+/* ------------------------- result.php ------------------------------------- */
+
+.container2{
+    width: 600px;   
+    height: 305px;
+
+    padding: 15px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+
+    background-color: #1a1a1a;
+    box-shadow: 3px 4px 10px rgb(1, 1, 1);
+
+}
+
+.res-fin{
+    background-color: rgba(62, 62, 62, .65);
+    width: 400px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 16px;
+
+    font-weight: 650;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    background-color: rgba(62, 62, 62, .65);
+    width: 310px;
+    height: 145px;
+    padding: 15px;
+    border-radius: 16px;
+
+    font-weight: 650;
+    margin-top: 5px;
+}
+
+input[name="sub2"]{
+
+    margin-top: 0px;
+   
+}
